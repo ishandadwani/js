@@ -1,0 +1,59 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+
+body{
+    background: rgb(208, 177, 238);
+    padding: 60px;
+}
+
+.container{
+   background: rgb(147, 78, 212);
+   color: white;
+   text-align: center;
+   width: 100%;
+   height: 500px;
+   border-radius:30px;
+    
+
+}
+.container input{
+    background-color: white;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin: 8px 0;
+    height: 26px;
+}
+.container h2{
+    padding-top: 20px;
+    font-family: cursive;
+}
+
+.container .form{
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+}
+
+.form #fn,#ln{
+    width: 200px;
+}
+ 
+.form #email,#pass,#cpass{
+    width:408px
+}
+
+.form #cb{
+    size: 20px;
+}
+.form #tcp{
+    display: inline;
+    font-family: cursive;
+}
+
+
