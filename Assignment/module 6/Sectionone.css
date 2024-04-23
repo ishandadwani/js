@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.d_flex {
+    display: flex;
+}
+
+.space_between {
+    justify-content: space-between;
+}
+
+.space_around {
+    justify-content: space-around;
+}
+
+.specify_center {
+    justify-content: center;
+}
+
+.sec1 {
+    padding: 50px 0;
+    background-image: url('https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.link1 ul li {
+    display: inline;
+    list-style: none;
+    margin: 0 25px 0px 5px;
+}
+
+.link1 ul li a {
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.name {
+    padding-top: 37px;
+}
+
+.name h1 {
+    color: aliceblue;
+    font-size: 6rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+
+.pera {
+    padding: 20px 0;
+}
+
+.pera p {
+    color: aliceblue;
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+}
+
+.ser_bar_city {
+    padding: 40px 0;
+}
+
+.optionmenue select {
+    border: none;
+    font-size: 20px;
+    padding: 12px 9px;
+    border-radius: 7px;
+}
+
+select option {
+    font-size: 20px;
+}
+
+.search input {
+    width: 600px;
+    font-size: 20px;
+    padding: 12px 9px;
+    border-radius: 7px;
+}
